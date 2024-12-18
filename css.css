@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+    padding: 5px;
+    margin-left:2rem;
+    margin-right: 3rem;
+}
+
+p{
+    color:black;
+}
+h4{
+    color: black;
+}
+h1{
+    color: white;
+
+}
+.title{
+    padding : 1rem;
+}
+h3{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 6px blue;
+}
+#abonnement{
+background-color: red;
+color: white;
+border-radius: 15px;
+text-align: center;
+}
+pre{
+    color: white;
+}
+a:hover{
+ color: grey;
+ text-overflow: 10px;
+}
+
+.formy{
+
+    display: grid;
+    align-items: center;
+    background-color: red;
+    padding: 1rem 1rem;
+    gap: 10px;
+    border-radius: 20px;
+    margin-top: 1rem;
+
+}
+.formy p{
+    color: white;
+}
+.formy input{
+
+    padding: 1rem;
+    border-radius: 20px;
+    border: transparent;
+}
+.parent{
+    display: grid;
+
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  footer img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin:0; 
+    color: #666; 
+  }
